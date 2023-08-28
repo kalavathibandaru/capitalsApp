@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.main-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container {
+  background-color: #93c5fd;
+  height: 90vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #f8fafc;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.states-container {
+  display: flex;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.style-input {
+  min-width: 180px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.country-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
